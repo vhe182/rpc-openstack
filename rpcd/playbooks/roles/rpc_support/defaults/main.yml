@@ -85,6 +85,10 @@ hwraid_apt_packages:
   - megacli
   - lsiutil
 
+hwraid_apt_package_urls:
+  - "http://mirror.rackspace.com/hwraid.le-vert.net/ubuntu/pool-wily/megacli_8.07.14-1_amd64.deb"
+  - "http://mirror.rackspace.com/hwraid.le-vert.net/ubuntu/pool-wily/lsiutil_1.60-2_amd64.deb"
+
 holland_requires_dependencies:
   - virtualenv
   - virtualenv-tools
