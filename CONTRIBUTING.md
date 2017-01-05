@@ -144,13 +144,17 @@ Issues are categorised to simplify the process of identifying the highest priori
 * Identify the product features impacted by the issue.
   Any labels relevant to this section will start with 'feature-'.
 * Identity the severity of the issue based on its impact on the stability and/or functionality on the product or end customer
-  This is a MANDATORY field when logging a bug. Any labels relevant to this section will start with 'sev-'.
+  * This is a MANDATORY field when logging a bug. 
+  * Any labels relevant to this section will start with 'sev-'.
 * Identify the origin of the issue based on where the issue is found. Whether it is Dev, QE, Support or reported by end customer
-  This is a MANDATORY field when logging a bug. Any labels relevant to this section will start with 'orig-'.
+  * This is a MANDATORY field when logging a bug. 
+  * Any labels relevant to this section will start with 'orig-'.
 * Identify the type of the issue being reported. Whether it is functional, deployment, environmental, automation or performance related
-  This is an OPTIONAL field when logging a bug but should be updated at a later stage once the triage is complete. Any labels relevant to this section will start with 'type-'.      
+  * This is an OPTIONAL field when logging a bug but should be updated at a later stage once the triage is complete. 
+  * Any labels relevant to this section will start with 'type-'.      
 Identify the component that is impacted by the issue. This can be Compute, Neutron, Identity etc.
-  This is an OPTIONAL field when logging a bug but should be updated at a later stage once the triage is complete. Any labels relevant to this section will start with 'comp-'.
+  * This is an OPTIONAL field when logging a bug but should be updated at a later stage once the triage is complete. 
+  * Any labels relevant to this section will start with 'comp-'.
 * Confirm the issue is valid
   * If the issue is invalid add the label 'status-invalid' and close the issue with a comment detailing why the issue is invalid.
 * Confirm the issue is something that will be fixed
